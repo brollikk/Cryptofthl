@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/CFH Logo.png">
+  
+  
+  <title>CryptoForTheHomeless</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    function copyToClipboard(element) {
+   var $temp = $("<input>");
+   $("body").append($temp);
+   $temp.val($(element).text()).select();
+   document.execCommand("copy");
+   $temp.remove();
+   alert("Wallet Address Copied!");
+  }
+  </script>
+  
+  <!-- Header -->
+    <h1 class="header">Making Crypto Donations Easy Towards A Noble Cause...</h1>
+    <h2 class="header">Crypto For The Homeless</h2>
+
+    <p class="intro">A humble non-profit organization started as a way to give crypto a good use-case.<br>
+      We help the homeless and believe that crypto is the future of crowdfunding and donations.<br> Every Donation made is spent 
+      wholly towards the welfare and betterment of the Homeless i.e Food, Daily Essentials and the list goes on.
+      Know more about <a href="https://cryptoforthehomeless.org/">Crypto For The Homeless | CFH</a>
+      </p>
+
+<div class="flex-container">
+  <!-- Card 1 -->
+  <div class="card card-1">
+    <h2>Algorand | ALGO <center><button onclick="copyToClipboard('#p1')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p1" hidden>U4JBJDJP2CSIIZUTON6H2HZGIWFSUTRIM6HYHAP7VF74OZY7EPUGGBAWTE</p>
+    <div class="center">
+      <img src="qr/algo.png" alt="ALGO QR">
+    </div> 
+  </div>
+  <!-- Card 2 -->
+  <div class="card card-2">
+    <h2>Banano | BAN <center><button onclick="copyToClipboard('#p2')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p2" hidden>ban_3huffb6oj7uppkxu6su9fii943w61gf4cmyzc9tex6izrf6xqaopwdiiib9b</p>
+    <div class="center">
+      <img src="qr/banano.png" alt="BAN QR">
+    </div> 
+  </div>
+  <!-- Card 3 -->
+  <div class="card card-1">
+    <h2>BAT Token | BAT <center><button onclick="copyToClipboard('#p3')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p3" hidden>0x8D797Fb679aCa886A468A0B539Ee31B695aC478b</p>
+    <div class="center">
+      <img src="qr/BAT.png" alt="BAT QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 4 -->
+  <div class="card card-2">
+    <h2>Bitcoin Cash | BCH <center><button onclick="copyToClipboard('#p4')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p4" hidden>qr0g850dfthha5v2fatmfvvmkz2nmwjqpgnfz0kywr</p>
+    <div class="center">
+      <img src="qr/bch.png" alt="BCH QR">
+    </div> 
+  </div>
+  <!-- Card 5 -->
+  <div class="card card-1">
+    <h2>Bitcoin | BTC <center><button onclick="copyToClipboard('#p5')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p5" hidden>3Cdp95cJ2gWTfoH7ydszwxRztPRWgJhxJT</p>
+    <div class="center">
+      <img src="qr/bitcoin.png" alt="BTC QR">
+    </div> 
+  </div>
+  <!-- Card 6 -->
+  <div class="card card-2">
+    <h2>Binance Coin | BNB <center><button onclick="copyToClipboard('#p6')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p6" hidden>bnb1gamvylzgsjg8tcwxppsgn79epq3qjlywquv9nm
+    </p>
+    <div class="center">
+      <img src="qr/BNB.png" alt="BNB QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 7 -->
+  <div class="card card-1">
+    <h2>Cardano | ADA <center><button onclick="copyToClipboard('#p7')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p7" hidden>addr1q858uwjjvhuxtph6nce9s3v4d4gq32sqczlme2evxgguwd0g0ca9ye0cvkr0483jtpze2m2spz4qps9lhj4jcvs3cu6s9cf6ep</p>
+    <div class="center">
+      <img src="qr/cardano.png" alt="ADA QR">
+    </div> 
+  </div>
+  <!-- Card 8 -->
+  <div class="card card-2">
+    <h2>Digibyte | DGB <center><button onclick="copyToClipboard('#p8')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p8" hidden>Sb3bKsey2tV43hWbamLXGNg4FobHG89rF7</p>
+    <div class="center">
+      <img src="qr/digibyte.png" alt="DGB QR">
+    </div> 
+  </div>
+  <!-- Card 9 -->
+  <div class="card card-1">
+    <h2>Dogecoin | DOGE <center><button onclick="copyToClipboard('#p9')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p9" hidden>DDBHNdxmdZ2QXfDBdY1nC7CTUw4y1kz1uf</p>
+    <div class="center">
+      <img src="qr/dogecoin.png" alt="DOGE QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 10 -->
+  <div class="card card-2">
+    <h2>Ethereum | ETH <center><button onclick="copyToClipboard('#p10')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p10" hidden>0xdb50c8e8a69d7baa3abab95107db1d315c84a8ca</p>
+    <div class="center">
+      <img src="qr/ethereum.png" alt="ETH QR">
+    </div> 
+  </div>
+  <!-- Card 11 -->
+  <div class="card card-1">
+    <h2>Garlicoin | GRLC <center><button onclick="copyToClipboard('#p11')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p11" hidden>GNyXJ7JMwRgvafGEnLUovkxKsqWVR9qUW8</p>
+    <div class="center">
+      <img src="qr/garlicoin_new.png" alt="GRLC QR">
+    </div> 
+  </div>
+  <!-- Card 12 -->
+  <div class="card card-2">
+    <h2>Litecoin | LTC <center><button onclick="copyToClipboard('#p12')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p12" hidden>MM26USuiX7WUkD1EaV3peKVdsvM7YrDFFJ</p>
+    <div class="center">
+      <img src="qr/litecoin.png" alt="LTC QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 13 -->
+  <div class="card card-1">
+    <h2>Monero | XMR <center><button onclick="copyToClipboard('#p13')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p13" hidden>447u6QpZgrUN6H4s3vsZ9mRfJ88ZMmEsWKxToNuUYe5DcgKsRjZyK49N7y3A6McE9MaEyX4y5bd7yPfLgWcvAatPKGr51Vm</p>
+    <div class="center">
+      <img src="qr/monero.png" alt="XMR QR">
+    </div> 
+  </div>
+  <!-- Card 14 -->
+  <div class="card card-2">
+    <h2>Nano | NANO <center><button onclick="copyToClipboard('#p14')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p14" hidden>nano_3p64ab97w1ma4p4nsssw15foc1kmhxufe64hcra63xdwew4sh9ofmfhn9unr</p>
+    <div class="center">
+      <img src="qr/nano.png" alt="NANO QR">
+    </div> 
+  </div>
+  <!-- Card 15 -->
+  <div class="card card-1">
+    <h2>Ravencoin | RVN <center><button onclick="copyToClipboard('#p15')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p15" hidden>RBM481x8M6etPepTRxkEmhyKPAjzeKJrrc</p>
+    <div class="center">
+      <img src="qr/ravencoin.png" alt="RVN QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 16 -->
+  <div class="card card-2">
+    <h2>Ripple | XRP <center><button onclick="copyToClipboard('#p16')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p16" hidden>rMCAsqXaHbTw2yWgkGzajnbCdS1voTQcrP</p>
+    <div class="center">
+      <img src="qr/ripple.png" alt="XRP QR">
+    </div> 
+  </div>
+  <!-- Card 17 -->
+  <div class="card card-1">
+    <h2>Solana | SOL <center><button onclick="copyToClipboard('#p17')"><b>Copy Wallet Address 📋</b></button></center></h2>
+    <p id="p17" hidden>5KeA65ywRUwpJHqhvjNzTyHQ7ugFrvgRKdJfwWv7pdLp</p>
+    <div class="center">
+      <img src="qr/solana.png" alt="SOL QR">
+    </div> 
+  </div>
+  <!-- Card 18 -->
+  <div class="card card-2">
+    <h2>Uniswap | UNI <center><button onclick="copyToClipboard('#p18')"><b><b>Copy Wallet Address 📋</b></b></button></center></h2>
+    <p id="p18" hidden>0x8D797Fb679aCa886A468A0B539Ee31B695aC478b</p>
+    <div class="center">
+      <img src="qr/uniswap.png" alt="UNI QR">
+    </div> 
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 19 -->
+  <div class="card card-1">
+    <h2>VeChain | VET <center><button onclick="copyToClipboard('#p19')"><b><b>Copy Wallet Address 📋</b></b></button></center></h2>
+    <p id="p19" hidden>0xD6e91165AE22189740B18ba0db6f8CE707501203</p>
+    <div class="center">
+      <img src="qr/ripple.png" alt="VET QR">
+    </div> 
+  </div>
+  <!-- Card 20 -->
+  <div class="card card-2">
+    <h2>Zecash | ZEC <center><button onclick="copyToClipboard('#p20')"><b><b>Copy Wallet Address 📋</b></b></button></center></h2>
+    <p id="p20" hidden>t1PGRsvYRCYC3u7WF3GcfgmCaUNnFFwcF6V</p>
+    <div class="center">
+      <img src="qr/solana.png" alt="SOL QR">
+    </div> 
+  </div>
+</div>
+
+  <footer>
+    <p class="attribution">
+      Built with ❤️ by <a href="https://github.com/aryashah2k" target="_blank">Arya</a>.
+      <br>Copyright © 2021 | Arya Shah
+    </p>
+  </footer>
+</body>
+</html>
